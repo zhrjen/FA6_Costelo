@@ -1,0 +1,74 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<style>
+		a:link{
+			color: purple;
+			background-color: transparent;
+			text-decoration: none;
+			}
+		a:visited{
+			color: green;
+			background-color: transparent;
+			text-decoration: none;
+			}
+		a:hover{
+			color: #b3ecff;
+			background-color: #668cff;
+			text-decoration: none;
+			}
+		a:active{
+			color: #99ffff;
+			background-color: transparent;
+			text-decoration: none;
+			}
+			
+		#div1{
+		border-style: solid;
+		border-color: red;
+		border: 2px solid red;
+		width: 7%;
+		height: 10%;
+		padding: 3%;
+		margin-top: 1%;
+		}
+		
+		#div2{
+		border-style: dotted;
+		border-color: cyan;
+		border: 2px solid cyan;
+		width: 7%;
+		height: 10%;
+		padding: 3%;
+		margin-top: 1%;
+		}
+		a{
+		border-style: solid;
+		border-color: blue;
+		margin-right: 1%;
+		}
+		
+		#div1:target{
+		background-color: #cce6ff;
+		}
+		#div2:target{
+		background-color: #cce6ff;
+
+		}
+		#div3:target{
+		background-color: #fff;
+		padding: 15px;
+		margin: 25px;
+		}
+		</style>
+		<body>
+		
+		<a href="#div1"> LINK1 </a>
+		<a href="#div2"> LINK2 </a>
+		<a href="#div3"> BTN </a>
+		<div id="div1"> DIV 1 </div>
+		<div id="div2"> DIV 2 </div>
+		
+		</body>
+	</head>
+</html>
